@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F100149D5F03FC282A61DC /* Pods_wheater_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F4B51405E11C87C50836C8 /* Pods_wheater_appTests.framework */; };
+		42726CF84A00D1EDCA337FE9 /* Pods_wheater_app_wheater_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246257C1698DFDA5A4E2010B /* Pods_wheater_app_wheater_appUITests.framework */; };
 		5A790FF829F01658008AFBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A790FF729F01658008AFBA4 /* AppDelegate.swift */; };
 		5A790FFA29F01658008AFBA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A790FF929F01658008AFBA4 /* SceneDelegate.swift */; };
 		5A790FFC29F01658008AFBA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A790FFB29F01658008AFBA4 /* ViewController.swift */; };
@@ -16,6 +18,11 @@
 		5A79100F29F0165A008AFBA4 /* wheater_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79100E29F0165A008AFBA4 /* wheater_appTests.swift */; };
 		5A79101929F0165A008AFBA4 /* wheater_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79101829F0165A008AFBA4 /* wheater_appUITests.swift */; };
 		5A79101B29F0165A008AFBA4 /* wheater_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79101A29F0165A008AFBA4 /* wheater_appUITestsLaunchTests.swift */; };
+		5A79102D29F02671008AFBA4 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79102C29F02671008AFBA4 /* Weather.swift */; };
+		5A79103129F69237008AFBA4 /* locationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79103029F69237008AFBA4 /* locationData.swift */; };
+		5A79103529F69313008AFBA4 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79103429F69313008AFBA4 /* NetworkConnection.swift */; };
+		5A79103729F6A2E2008AFBA4 /* WeatherInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79103629F6A2E2008AFBA4 /* WeatherInfoModel.swift */; };
+		A19C09C4F43893E3EDBBF118 /* Pods_wheater_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D4844C20E6A38A225DF571 /* Pods_wheater_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		246257C1698DFDA5A4E2010B /* Pods_wheater_app_wheater_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wheater_app_wheater_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F006CA6B200C0A923A7CA3E /* Pods-wheater-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-app.debug.xcconfig"; path = "Target Support Files/Pods-wheater-app/Pods-wheater-app.debug.xcconfig"; sourceTree = "<group>"; };
 		5A790FF429F01658008AFBA4 /* wheater-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wheater-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A790FF729F01658008AFBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A790FF929F01658008AFBA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		5A79101429F0165A008AFBA4 /* wheater-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wheater-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A79101829F0165A008AFBA4 /* wheater_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheater_appUITests.swift; sourceTree = "<group>"; };
 		5A79101A29F0165A008AFBA4 /* wheater_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheater_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A79102C29F02671008AFBA4 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		5A79103029F69237008AFBA4 /* locationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationData.swift; sourceTree = "<group>"; };
+		5A79103429F69313008AFBA4 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		5A79103629F6A2E2008AFBA4 /* WeatherInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoModel.swift; sourceTree = "<group>"; };
+		8F4332175B376408194451B9 /* Pods-wheater-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-appTests.release.xcconfig"; path = "Target Support Files/Pods-wheater-appTests/Pods-wheater-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		97F2338847457E6D31F20065 /* Pods-wheater-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-app.release.xcconfig"; path = "Target Support Files/Pods-wheater-app/Pods-wheater-app.release.xcconfig"; sourceTree = "<group>"; };
+		A4D4844C20E6A38A225DF571 /* Pods_wheater_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wheater_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5353A45A3D209CC312CCDFD /* Pods-wheater-app-wheater-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-app-wheater-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-wheater-app-wheater-appUITests/Pods-wheater-app-wheater-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C185D7EC4B2087A5C8CA4C /* Pods-wheater-app-wheater-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-app-wheater-appUITests.release.xcconfig"; path = "Target Support Files/Pods-wheater-app-wheater-appUITests/Pods-wheater-app-wheater-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2D74BD0F8655F616AFCF9C0 /* Pods-wheater-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-appTests.debug.xcconfig"; path = "Target Support Files/Pods-wheater-appTests/Pods-wheater-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F4B51405E11C87C50836C8 /* Pods_wheater_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wheater_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19C09C4F43893E3EDBBF118 /* Pods_wheater_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F100149D5F03FC282A61DC /* Pods_wheater_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42726CF84A00D1EDCA337FE9 /* Pods_wheater_app_wheater_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2224997780ABD6EF6FD307B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4844C20E6A38A225DF571 /* Pods_wheater_app.framework */,
+				246257C1698DFDA5A4E2010B /* Pods_wheater_app_wheater_appUITests.framework */,
+				D6F4B51405E11C87C50836C8 /* Pods_wheater_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A790FEB29F01658008AFBA4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				5A79100D29F0165A008AFBA4 /* wheater-appTests */,
 				5A79101729F0165A008AFBA4 /* wheater-appUITests */,
 				5A790FF529F01658008AFBA4 /* Products */,
+				C441C8B3D89F5B4319FF7F1C /* Pods */,
+				2224997780ABD6EF6FD307B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +134,14 @@
 		5A790FF629F01658008AFBA4 /* wheater-app */ = {
 			isa = PBXGroup;
 			children = (
-				5A790FF729F01658008AFBA4 /* AppDelegate.swift */,
-				5A790FF929F01658008AFBA4 /* SceneDelegate.swift */,
-				5A790FFB29F01658008AFBA4 /* ViewController.swift */,
-				5A790FFD29F01658008AFBA4 /* Main.storyboard */,
+				5A79103229F692F0008AFBA4 /* services */,
+				5A79102F29F6920F008AFBA4 /* data */,
+				5A79102E29F691D8008AFBA4 /* app */,
+				5A79102B29F0260F008AFBA4 /* images */,
+				5A79102A29F025CB008AFBA4 /* controllers */,
+				5A79102929F025C1008AFBA4 /* views */,
+				5A79102729F0258C008AFBA4 /* models */,
 				5A79100029F0165A008AFBA4 /* Assets.xcassets */,
-				5A79100229F0165A008AFBA4 /* LaunchScreen.storyboard */,
 				5A79100529F0165A008AFBA4 /* Info.plist */,
 			);
 			path = "wheater-app";
@@ -127,6 +164,85 @@
 			path = "wheater-appUITests";
 			sourceTree = "<group>";
 		};
+		5A79102729F0258C008AFBA4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5A79103629F6A2E2008AFBA4 /* WeatherInfoModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5A79102929F025C1008AFBA4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5A79100229F0165A008AFBA4 /* LaunchScreen.storyboard */,
+				5A790FFD29F01658008AFBA4 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		5A79102A29F025CB008AFBA4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A790FFB29F01658008AFBA4 /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5A79102B29F0260F008AFBA4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		5A79102E29F691D8008AFBA4 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				5A790FF729F01658008AFBA4 /* AppDelegate.swift */,
+				5A790FF929F01658008AFBA4 /* SceneDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		5A79102F29F6920F008AFBA4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				5A79102C29F02671008AFBA4 /* Weather.swift */,
+				5A79103029F69237008AFBA4 /* locationData.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		5A79103229F692F0008AFBA4 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				5A79103329F692FA008AFBA4 /* http */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		5A79103329F692FA008AFBA4 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				5A79103429F69313008AFBA4 /* NetworkConnection.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		C441C8B3D89F5B4319FF7F1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F006CA6B200C0A923A7CA3E /* Pods-wheater-app.debug.xcconfig */,
+				97F2338847457E6D31F20065 /* Pods-wheater-app.release.xcconfig */,
+				B5353A45A3D209CC312CCDFD /* Pods-wheater-app-wheater-appUITests.debug.xcconfig */,
+				B6C185D7EC4B2087A5C8CA4C /* Pods-wheater-app-wheater-appUITests.release.xcconfig */,
+				C2D74BD0F8655F616AFCF9C0 /* Pods-wheater-appTests.debug.xcconfig */,
+				8F4332175B376408194451B9 /* Pods-wheater-appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A79101E29F0165A008AFBA4 /* Build configuration list for PBXNativeTarget "wheater-app" */;
 			buildPhases = (
+				A34ECFB0F3989F05D1863F42 /* [CP] Check Pods Manifest.lock */,
 				5A790FF029F01658008AFBA4 /* Sources */,
 				5A790FF129F01658008AFBA4 /* Frameworks */,
 				5A790FF229F01658008AFBA4 /* Resources */,
+				3016123D4195811B5783D479 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A79102129F0165A008AFBA4 /* Build configuration list for PBXNativeTarget "wheater-appTests" */;
 			buildPhases = (
+				ECBED6308B8137DEF0FFF7C1 /* [CP] Check Pods Manifest.lock */,
 				5A79100629F0165A008AFBA4 /* Sources */,
 				5A79100729F0165A008AFBA4 /* Frameworks */,
 				5A79100829F0165A008AFBA4 /* Resources */,
@@ -169,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A79102429F0165A008AFBA4 /* Build configuration list for PBXNativeTarget "wheater-appUITests" */;
 			buildPhases = (
+				C6B4307BEB3EAC3279B53D73 /* [CP] Check Pods Manifest.lock */,
 				5A79101029F0165A008AFBA4 /* Sources */,
 				5A79101129F0165A008AFBA4 /* Frameworks */,
 				5A79101229F0165A008AFBA4 /* Resources */,
+				4013994B97B81F13634CAA15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +374,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3016123D4195811B5783D479 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wheater-app/Pods-wheater-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wheater-app/Pods-wheater-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wheater-app/Pods-wheater-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4013994B97B81F13634CAA15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wheater-app-wheater-appUITests/Pods-wheater-app-wheater-appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wheater-app-wheater-appUITests/Pods-wheater-app-wheater-appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wheater-app-wheater-appUITests/Pods-wheater-app-wheater-appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34ECFB0F3989F05D1863F42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wheater-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B4307BEB3EAC3279B53D73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wheater-app-wheater-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBED6308B8137DEF0FFF7C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wheater-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A790FF029F01658008AFBA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A79103729F6A2E2008AFBA4 /* WeatherInfoModel.swift in Sources */,
 				5A790FFC29F01658008AFBA4 /* ViewController.swift in Sources */,
 				5A790FF829F01658008AFBA4 /* AppDelegate.swift in Sources */,
+				5A79102D29F02671008AFBA4 /* Weather.swift in Sources */,
 				5A790FFA29F01658008AFBA4 /* SceneDelegate.swift in Sources */,
+				5A79103529F69313008AFBA4 /* NetworkConnection.swift in Sources */,
+				5A79103129F69237008AFBA4 /* locationData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +660,7 @@
 		};
 		5A79101F29F0165A008AFBA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F006CA6B200C0A923A7CA3E /* Pods-wheater-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +673,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +689,7 @@
 		};
 		5A79102029F0165A008AFBA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F2338847457E6D31F20065 /* Pods-wheater-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +702,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +718,7 @@
 		};
 		5A79102229F0165A008AFBA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D74BD0F8655F616AFCF9C0 /* Pods-wheater-appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +738,7 @@
 		};
 		5A79102329F0165A008AFBA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4332175B376408194451B9 /* Pods-wheater-appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +758,7 @@
 		};
 		5A79102529F0165A008AFBA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5353A45A3D209CC312CCDFD /* Pods-wheater-app-wheater-appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +776,7 @@
 		};
 		5A79102629F0165A008AFBA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C185D7EC4B2087A5C8CA4C /* Pods-wheater-app-wheater-appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

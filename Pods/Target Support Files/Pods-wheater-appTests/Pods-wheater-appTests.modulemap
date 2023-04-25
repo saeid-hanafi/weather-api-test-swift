@@ -1,0 +1,6 @@
+framework module Pods_wheater_appTests {
+  umbrella header "Pods-wheater-appTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

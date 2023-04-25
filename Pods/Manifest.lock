@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.6.4)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - SwiftLocation/BeaconBroadcaster (5.1.0):
+    - SwiftLocation/Core
+  - SwiftLocation/Core (5.1.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 4.1)
+  - SwiftLocation/BeaconBroadcaster
+  - SwiftLocation/Core
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - SwiftLocation
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  SwiftLocation: 83e0ea75a1969cee3a1197e2b7095603fc23fde5
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: b9d76a1c94a1da4bbd4397e5a2e97487b006f54f
+
+COCOAPODS: 1.12.1

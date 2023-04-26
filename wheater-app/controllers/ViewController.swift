@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
     
+    let locationManager = CLLocationManager()
     @IBOutlet var locNameLabel: UILabel!
     
     @IBOutlet var weatherStatusImg: UIImageView!
@@ -19,6 +21,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        locationManager.delegate = self
+        locationManager.startMonitoringVisits()
         
         weatherModel.weatherDelegate = self
         self.progressBar.isHidden = true

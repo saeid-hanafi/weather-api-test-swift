@@ -6,16 +6,26 @@
 //
 
 import UIKit
+import CoreLocation
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
 
     static let APIKEY: String = "9fe18980b36576bfc51c0ee5196293cf"
     static let WEATHERURL: String = "https://api.openweathermap.org/data/2.5/weather?"
     static let IMGURL = "https://openweathermap.org/img/wn/"
 
+    let locationManager = CLLocationManager()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if let keys = launchOptions?.keys {
+            if keys.contains(.location) {
+                locationManager.delegate = self
+                locationManager.startMonitoringVisits()
+            }
+        }
+        
         return true
     }
 
@@ -33,6 +43,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func application(_ application: UIApplication, shouldSaveSecureApplicationState coder: NSCoder) -> Bool {
+        coder.encode(1.0, forKey: "MyAppVersion")
+        
+        return true
+    }
+    
+    func application(_ application: UIApplication, shouldRestoreSecureApplicationState coder: NSCoder) -> Bool {
+        let version = coder.decodeFloat(forKey: "MyAppVersion")
+        if version == 1.0 {
+            return true
+        }
+        
+        return false
+    }
 
 }
 

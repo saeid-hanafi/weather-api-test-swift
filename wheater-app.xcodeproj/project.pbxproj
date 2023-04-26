@@ -22,6 +22,7 @@
 		5A79103129F69237008AFBA4 /* locationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79103029F69237008AFBA4 /* locationData.swift */; };
 		5A79103529F69313008AFBA4 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79103429F69313008AFBA4 /* NetworkConnection.swift */; };
 		5A79103729F6A2E2008AFBA4 /* WeatherInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79103629F6A2E2008AFBA4 /* WeatherInfoModel.swift */; };
+		5A79103A29F9126D008AFBA4 /* CustomLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79103929F9126D008AFBA4 /* CustomLocation.swift */; };
 		A19C09C4F43893E3EDBBF118 /* Pods_wheater_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D4844C20E6A38A225DF571 /* Pods_wheater_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		5A79103029F69237008AFBA4 /* locationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationData.swift; sourceTree = "<group>"; };
 		5A79103429F69313008AFBA4 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
 		5A79103629F6A2E2008AFBA4 /* WeatherInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoModel.swift; sourceTree = "<group>"; };
+		5A79103929F9126D008AFBA4 /* CustomLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocation.swift; sourceTree = "<group>"; };
 		8F4332175B376408194451B9 /* Pods-wheater-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-appTests.release.xcconfig"; path = "Target Support Files/Pods-wheater-appTests/Pods-wheater-appTests.release.xcconfig"; sourceTree = "<group>"; };
 		97F2338847457E6D31F20065 /* Pods-wheater-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheater-app.release.xcconfig"; path = "Target Support Files/Pods-wheater-app/Pods-wheater-app.release.xcconfig"; sourceTree = "<group>"; };
 		A4D4844C20E6A38A225DF571 /* Pods_wheater_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wheater_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +219,7 @@
 		5A79103229F692F0008AFBA4 /* services */ = {
 			isa = PBXGroup;
 			children = (
+				5A79103829F91243008AFBA4 /* main */,
 				5A79103329F692FA008AFBA4 /* http */,
 			);
 			path = services;
@@ -228,6 +231,14 @@
 				5A79103429F69313008AFBA4 /* NetworkConnection.swift */,
 			);
 			path = http;
+			sourceTree = "<group>";
+		};
+		5A79103829F91243008AFBA4 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				5A79103929F9126D008AFBA4 /* CustomLocation.swift */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 		C441C8B3D89F5B4319FF7F1C /* Pods */ = {
@@ -485,6 +496,7 @@
 				5A79103729F6A2E2008AFBA4 /* WeatherInfoModel.swift in Sources */,
 				5A790FFC29F01658008AFBA4 /* ViewController.swift in Sources */,
 				5A790FF829F01658008AFBA4 /* AppDelegate.swift in Sources */,
+				5A79103A29F9126D008AFBA4 /* CustomLocation.swift in Sources */,
 				5A79102D29F02671008AFBA4 /* Weather.swift in Sources */,
 				5A790FFA29F01658008AFBA4 /* SceneDelegate.swift in Sources */,
 				5A79103529F69313008AFBA4 /* NetworkConnection.swift in Sources */,

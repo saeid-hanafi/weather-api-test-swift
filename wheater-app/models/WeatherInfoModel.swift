@@ -7,7 +7,6 @@
 
 import Foundation
 import SwiftLocation
-import CoreLocation
 
 protocol Weatherdelegate: ViewController {
     func getWeather(weather: Weather, image: UIImage)
@@ -20,29 +19,14 @@ class WeatherInfoModel {
     private let token = AppDelegate.APIKEY
     private let imageUrl = AppDelegate.IMGURL
     weak var weatherDelegate: Weatherdelegate?
-    
-    private func getCurrentLoc(completion: @escaping (_ loc: CLLocationCoordinate2D) -> ()) {
-        completion(SwiftLocation.lastKnownGPSLocation!.coordinate)
-//        SwiftLocation.gpsLocation().then { result in
-//            switch result {
-//            case .success(let data):
-//                completion(data.coordinate)
-//                break
-//            case .failure(let error):
-//                let msg = "Swift Location Error is : \(error)"
-//                print(msg)
-//                self.weatherDelegate?.getWeatherError(error: msg)
-//                break
-//            }
-//        }
-    }
+    private let locManagerService: CustomLocationManager = CustomLocationManager()
     
     /**
      This Method Gets User Last Location
      */
     private func getWeatherURL(completion: @escaping (_ url: String) -> ()) {
         
-        self.getCurrentLoc { loc in
+        locManagerService.getCurrentLoc { loc in
             if (!self.url.isEmpty && !self.token.isEmpty) {
                 let lat: Double = Double(loc.latitude)
                 let long: Double = Double(loc.longitude)
